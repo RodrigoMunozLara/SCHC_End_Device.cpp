@@ -5,7 +5,7 @@
 
 /**************** Ticker ************************/
 void periodicWakeup();
-Ticker myTicker(periodicWakeup, 20000);  // Periodic callback each 2000 milliseconds
+Ticker myTicker(periodicWakeup, 21000);  // Periodic callback each 2000 milliseconds
 int counter = 0;
 
 
